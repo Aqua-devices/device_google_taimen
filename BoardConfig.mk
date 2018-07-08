@@ -24,7 +24,7 @@ TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := clang-stable
+TARGET_KERNEL_CLANG_VERSION := 7.0.2
 
 include device/google/wahoo/BoardConfig.mk
 
