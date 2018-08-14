@@ -3,19 +3,19 @@ TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+# Inherit Aquarios GSM telephony parts
+$(call inherit-product, vendor/aquarios/config/gsm.mk)
 
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit Aquarios product configuration
+$(call inherit-product, vendor/aquarios/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
--include device/google/taimen/device-carbon.mk
+-include device/google/taimen/device-aquarios.mk
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := carbon_taimen
+PRODUCT_NAME := aquarios_taimen
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2 XL
 TARGET_MANUFACTURER := LGE
@@ -27,6 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="taimen-user 9 PPR1.180610.009 4898911 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carbon.maintainer="frap129/Myself5"
+    ro.aquarios.maintainer="frap129/Myself5"
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)

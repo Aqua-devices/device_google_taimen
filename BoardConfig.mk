@@ -39,4 +39,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 105
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=12
 
--include device/google/taimen/BoardConfigCarbon.mk
+-include device/google/taimen/BoardConfigAquarios.mk

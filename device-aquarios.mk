@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
     PresencePolling
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/taimen/overlay-carbon
+DEVICE_PACKAGE_OVERLAYS += device/google/taimen/overlay-aquarios
 
 # Pixel Experience
 PRODUCT_COPY_FILES += \
