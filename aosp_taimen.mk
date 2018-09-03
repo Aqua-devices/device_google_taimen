@@ -14,13 +14,7 @@
 # limitations under the License.
 #
 
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-
-
 $(call inherit-product, device/google/taimen/device.mk)
-$(call inherit-product, vendor/google/taimen/taimen-vendor.mk)
 
 PRODUCT_PACKAGES += \
     Dialer \
@@ -35,8 +29,3 @@ PRODUCT_COPY_FILES += \
 
 # PRODUCT_RESTRICT_VENDOR_FILES := owner
 
-PRODUCT_MANUFACTURER := Google
-PRODUCT_BRAND := Android
-PRODUCT_NAME := aosp_taimen
-PRODUCT_DEVICE := taimen
-PRODUCT_MODEL := AOSP on taimen
