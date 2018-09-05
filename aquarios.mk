@@ -23,4 +23,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
 $(call inherit-product,  vendor/google/taimen/taimen-vendor.mk)
-$(call inherit-product,  vendor/gapps/gapps.mk)
+$(call inherit-product,  vendor/pixelgapps/pixel-gapps.mk)
