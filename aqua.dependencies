@@ -1,0 +1,22 @@
+[
+  {
+    "repository":   "Aqua-devices/kernel_google_wahoo",
+    "target_path":  "kernel/google/wahoo",
+    "branch":       "a9"
+  },
+  {
+    "repository":   "Aqua-devices/device_google_wahoo",
+    "target_path":  "device/google/wahoo",
+    "branch":       "a9"
+  },
+  {
+    "repository":   "Aqua-devices/vendor_google",
+    "target_path":  "vendor/google",
+    "branch":       "a9"
+  },
+  {
+    "repository":   "AquariOS/vendor_pixelgapps",
+    "target_path":  "vendor/pixelgapps",
+    "branch":       "a9"
+  }
+]
