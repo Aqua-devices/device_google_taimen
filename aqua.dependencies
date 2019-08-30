@@ -10,13 +10,8 @@
     "branch":       "a9"
   },
   {
-    "repository":   "Aqua-devices/vendor_google",
+    "repository":   "Aqua-devices/proprietary_vendor_google",
     "target_path":  "vendor/google",
-    "branch":       "a9"
-  },
-  {
-    "repository":   "AquariOS/vendor_pixelgapps",
-    "target_path":  "vendor/pixelgapps",
     "branch":       "a9"
   }
 ]
