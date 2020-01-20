@@ -13,5 +13,10 @@
     "repository":   "Aqua-devices/proprietary_vendor_google",
     "target_path":  "vendor/google",
     "branch":       "x"
+  },
+  {
+    "repository":  "gitlab.com/AquariOS/vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch":      "x"
   }
 ]
