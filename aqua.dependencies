@@ -10,7 +10,7 @@
     "branch":       "x"
   },
   {
-    "repository":   "Aqua-devices/proprietary_vendor_google",
+    "repository":   "Aqua-devices/vendor_google",
     "target_path":  "vendor/google",
     "branch":       "x"
   },
